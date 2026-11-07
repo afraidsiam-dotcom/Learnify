@@ -1,7 +1,7 @@
 /* StudyBuddy BD – রিমোট কন্ট্রোল ক্লায়েন্ট
    অ্যাপের index.html এর </body> এর আগে বসাবে:  <script src="remote-client.js"></script>  */
 (function(){
-  const PROJECT_ID='studybuddy-bd-71be6', API_KEY='এখানে-apiKey', APP_VERSION='1.0.0';
+  const PROJECT_ID='studybuddy-bd-71be6', API_KEY='AIzaSyAysKLNhLFGFX0P-zL3znsnzRqtW6Y6Yqs', APP_VERSION='1.0.0';
   const B='https://firestore.googleapis.com/v1/projects/'+PROJECT_ID+'/databases/(default)/documents';
   const LS=(k,v)=>{try{if(v===undefined)return localStorage.getItem(k)||'';localStorage.setItem(k,v)}catch(e){return ''}};
   let id=LS('sb_uid');
